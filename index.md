@@ -1,37 +1,18 @@
-## Welcome to GitHub Pages
+# Hva er Lavinia?
+Lavinia er et nettbasert dataverktøy som gjøre det mulig å foreta mandatberegninger for stortingsvalg
+og kommunestyrevalg ved å variere ulike deler av valgordningen. Hensikten med Lavinia er å skape
+en dypere forståelse for hvordan valgsystemet – som en viktig del av vårt demokrati – virker.
+Programmet er basert på læring gjennom praktiske øvelser.
 
-You can use the [editor on GitHub](https://github.com/Project-Lavinia/Wiki/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Hvilke partier vinner eller taper på et høyere eller lavere første delingstall, en annen beregningsformel
+eller flere utjevningsmandater? Det er lett å tro at valgordningen er kjedelig og vanskelig. Lavinia gjør
+det enkelt og lett forståelig å se hvilken betydning de ulike bestemmelsene har for valgresultatet. Både
+skoleelever/studenter, journalister, politikere, forskere og vanlige velgere kan ha nytte av programmet.
+Mange tidligere valg er lagt inn, slik at programmet også kan brukes som et oppslagsverk. Hvem vant
+valget i din kommune og ditt fylke ved siste valg og for 20 år siden?
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Project-Lavinia/Wiki/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Lavinia bygger videre på programmet Celius som Bernt Aardal utviklet og skrev. Celius var oppkalt
+etter stortingsmann og kemner Celius i Nils Kjærs komedie Det lykkelige valg (Det lykkelige valg, Oslo:
+Gyldendal Norsk Forlag, 1971). Lavinia er derimot oppkalt etter Celius kone som overtok
+stortingsvervet etter sin mann, og markerer at valgkanalen er blitt en viktig kanal for kvinnelige
+politikere og ledere.
