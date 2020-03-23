@@ -1,4 +1,4 @@
-# Beskrivelse
+# Menu
 
 ## Tabeller
 
@@ -26,13 +26,13 @@ Viser en oversikt over hvilke utjevningsmandater (fylke) hvert parti har fått.
 
 Viser partienes restkvotienter i alle valgkretser (fylker)
 
-***Hva er restkvotient?***  
+**Hva er restkvotient?**
 I en valgkrets, etter at mandatene er delt ut, så er restkvotientene det samme som partiene sine gjenstående stemmeantall. Det vil si stemmene som er igjen etter at Saint Legues metode er utført.
 
-***Restkvotienter representert i Lavinia***  
+**Restkvotienter representert i Lavinia**
 For å utjevne de store forskjellene mellom fylkene så er partienes restkvotienter justert ved å dividere restkvotientene på det gjennomsnittlige antall stemmer som står bak hvert mandat i vedkommende fylke.
 
-### Fordeling
+### Fordeling av mandater
 
 ![Fordeling](fordeling.png)
 
