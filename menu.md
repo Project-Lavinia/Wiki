@@ -44,6 +44,8 @@ Viser fordelingen av fylkenes mandater på hvert parti.
 
 Viser en fullstendig oversikt, for valgt fylke, over partienes andel stemmer, mandatgevinst, margin (i antall stemmer) og sistekvotient.
 
+**[Margin til sistemandatet](./forklaringer.md##Margin-til-sistemandatet)**
+
 ## Menyer
 
 ### Valgt år
@@ -68,68 +70,13 @@ $$\frac{V}{2s+1}$$
 
 Sainte-Laguës oddetallsmetode er opprinnelig slik at man først deler stemmetallet på 1,0 - dvs. at partiene konkurrerer om førstemandatet med de stemmer de fikk ved selve valget. En annen måte å uttrykke dette på er at første divisor er lik 1. Når et parti har erobret sitt første mandat, divideres stemmetallet på 3, ved mandat nummer 3 divideres stemmetallet på 5, osv. i oddetallsrekken. Ved økende antall mandater stiger derfor "kostnadene" i form av stemmer for partiene. I forhold til d'Hondts metode gir dette betydelig dårligere uttelling for de store partiene. Den norske valgordningen ble endret fra d'Hondts til St. Laguës metode i 1952. Som en kompensasjon for de store partiene forhøyet man første divisor fra 1,0 til 1,4 som er den nåværende ordning. Det er altså en modifisert St. Laguës metode som er i bruk i Norge i dag.
 
-Matematisk ser d'Hondts slik ut:
-$$\frac{V}{s+1}$$
- $V$ uttrykker her partienes andel av stemmene og $S$ uttrykker deres andel av mandatene
+**[Stortingsvalg med Sainte-Laguës metode](./forklaringer.md##Margin-til-sistemandatet)**
 
 d'Hondts metode er basert på delingstallene 1, 2, 3, 4, 5, 6, 7, 8 osv. Denne metoden gir svært god mandatgevinst for de største partiene. Overrepresentasjonen for de store partiene blir så stor at dette i mange tilfeller oppfattes som et demokratisk problem.
 
-**Stortingsvalg**  
-Et eksempel på hvordan valgoppgjøret foregår ved stortingsvalg kan klargjøre hva som ligger i Sainte Laguës metode. La oss tenke oss at det i Akershus fylke skal velges 5 representanter til Stortinget. I alt stiller 5 partier (A, B, C, D, og E) til valg.
-
-Steg 1.
-Partienes stemmetall fremgår av oversikten under. Første steg er å dividere hvert partis stemmetall med det første delingstallet (første divisor) som er 1,4. (For å forenkle fremstillingen, ser vi bort fra desimalene i dette eksempelet).
-
-Akershus fylke, 5 representanter, 5 lister.
-
-   Parti A: 50 000 / 1,4 = __35714__  
-   Parti B: 40 000 / 1,4 = 28571  
-   Parti C: 30 000 / 1,4 = 21428  
-   Parti D: 20 000 / 1,4 = 14285  
-   Parti E: 10 000 / 1,4 =  7142  
-  
-Ved å sammenligne kvotientene (etter divisjonen), finner vi at parti A har den største kvotienten, og derfor vinner mandat nummer 1.
-
-Steg 2.
-Fordi parti A har vunnet ett mandat, divideres dette parties opprinnelige stemmetall med neste tall i oddetallsrekken som er 3.
-
-   Parti A: 50 000 / 3   = 16666  
-   Parti B: 40 000 / 1,4 = __28571__  
-   Parti C: 30 000 / 1,4 = 21428  
-   Parti D: 20 000 / 1,4 = 14285  
-   Parti E: 10 000 / 1,4 =  7142  
-
-Etter divisjonen er det parti B som har den største kvotienten, og dermed vinner det andre mandatet. Derfor må parti Bs stemmetall også divideres med 3 i neste steg.
-
-Steg 3.
-
-   Parti A: 50 000 / 3   = 16666  
-   Parti B: 40 000 / 3   = 13333  
-   Parti C: 30 000 / 1,4 = __21428__  
-   Parti D: 20 000 / 1,4 = 14285  
-   Parti E: 10 000 / 1,4 =  7142  
-
-Det tredje mandatet tilfaller parti C, som har den største kvotienten i denne runden. Parti Cs stemmetall divideres derfor også med 3 i neste steg.
-
-Steg 4
-
-   Parti A: 50 000 / 3   = __16666__  
-   Parti B: 40 000 / 3   = 13333  
-   Parti C: 30 000 / 3   = 10000  
-   Parti D: 20 000 / 1,4 = 14285  
-   Parti E: 10 000 / 1,4 =  7142  
-
-Sammenligner vi restkvotientene, finner vi at parti A igjen er størst, og dermed vinner sitt andre mandat som er mandat nummer 4 i dette fylket. Parti As stemmetall divideres i neste runde derfor med 5.
-
-Steg 5.
-
-   Parti A: 50 000 / 5   = 10000  
-   Parti B: 40 000 / 3   = 13333  
-   Parti C: 30 000 / 3   = 10000  
-   Parti D: 20 000 / 1,4 = __14285__  
-   Parti E: 10 000 / 1,4 =  7142  
-
-Nå er det bare ett mandat igjen til fordeling i fylket, og det tilfaller parti D som har den største kvotienten.
+Matematisk ser d'Hondts slik ut:
+$$\frac{V}{s+1}$$
+ $V$ uttrykker her partienes andel av stemmene og $S$ uttrykker deres andel av mandatene
 
 ### Første delingstall
 
