@@ -6,37 +6,38 @@
 
 ![Landsoversikt](landsoversikt.png)
 
-Viser en fullstendig oversikt over partienes samlede mandatgevinst (både distriktsmandater og utjevningsmandater), fordelt på de enkelte valgdistrikter (fylker).
+Viser en fullstendig oversikt over partienes stemmeantall, prosent stemmeandel, samlede mandatgevinst (både distriktsmandater og utjevningsmandater), fordelt på de enkelte valgdistrikter (fylker).
+
+Kolonnen helt til høyre, 'Prop.', viser avviket mellom de enkelte partienes andel av mandatene på Stortinget og deres andel av stemmene. For hvert parti utgjør dette med andre ord differansen mellom prosentandel av stemmene og prosentandelen av mandatene.
 
 ### Fylker
 
 ![Fylker](fylker.png)
 
-Viser en oversikt over fylkenes antall stemmer og mandatgevinst (både distriktsmandater og utjevningsmandater).
+Viser en oversikt over fylkenes antall stemmer, mandatgevinst (både distriktsmandater og utjevningsmandater) og antall stemmer per mandat.
 
-### Utjevningsmandater - oversikt
+### Utjevningsmandater
 
 ![Utjevningsmandater](utjevningsmandater_tabell.png)
 
-Viser en oversikt over hvilke utjevningsmandater (fylke) hvert parti har fått.
+Viser en oversikt over fra hvilket fylke hvert parti har fått utjevningsmandater fra.
 
 ### Restkvotienter
 
 ![Restkvotienter](restkvotienter.png)
 
-Viser partienes restkvotienter i alle valgkretser (fylker)
+Viser en radvis liste over [restkvotienter](./forklaringer##Justert-restkvotient).
 
-**Hva er restkvotient?**
-I en valgkrets, etter at mandatene er delt ut, så er restkvotientene det samme som partiene sine gjenstående stemmeantall. Det vil si stemmene som er igjen etter at Saint Legues metode er utført.
+Hver rad representerer restkvotientene til ett fylke. Markerte celler indikerer hvilket partiet som har vunnet utjevningsmandat i fylke.
 
-**Restkvotienter representert i Lavinia**
+**Restkvotienter representert i Lavinia**  
 For å utjevne de store forskjellene mellom fylkene så er partienes restkvotienter justert ved å dividere restkvotientene på det gjennomsnittlige antall stemmer som står bak hvert mandat i vedkommende fylke.
 
-### Fordeling av mandater
+### Fylkesfordeling av mandater
 
-![Fordeling](fordeling.png)
+<!-- ![Fylkesfordeling av mandater](fordeling.png) -->
 
-Viser fordelingen av fylkenes mandater på hvert parti.
+Viser fylkenes fordeling av mandater på alle partier.
 
 ### Enkeltfylke  
 
@@ -62,43 +63,27 @@ Ved å se på ulike valgår kan du se utviklingen av den norske valgordningen fo
 
 Her kan du velge å fordele mandatene med enten Sainte-Laguës eller d'Hondts metode.
 
-Dette er beregningsmetoder som blir brukt når distriktsmandatene skal fordeles på partiene i distriktene og deretter når utjevningsmandatene skal fordeles på partiene på landsbasis (kun for partier over sperregrensen). Både Sainte-Laguës og d'Holts metode er proporsjonale valgordninger hvor kandidater velges i forhold til antall stemmer de eller deres valgliste får. d'Holts metode er mindre proporsjonal enn Sainte-Laguës metode.
+Dette er beregningsmetoder som blir brukt når distriktsmandatene skal fordeles på partiene i distriktene og deretter når utjevningsmandatene skal fordeles på partiene på landsbasis (sistnevnte kun for partier over sperregrensen). Både Sainte-Laguës og d'Holts metode er proporsjonale valgordninger hvor kandidater velges i forhold til antall stemmer de eller deres valgliste får.
 
-Matematisk ser Sainte-Laguës metode slik ut:
-$$\frac{V}{2s+1}$$
- $V$ uttrykker her partienes andel av stemmene og $S$ uttrykker deres andel av mandatene
-
-Sainte-Laguës oddetallsmetode er opprinnelig slik at man først deler stemmetallet på 1,0 - dvs. at partiene konkurrerer om førstemandatet med de stemmer de fikk ved selve valget. En annen måte å uttrykke dette på er at første divisor er lik 1. Når et parti har erobret sitt første mandat, divideres stemmetallet på 3, ved mandat nummer 3 divideres stemmetallet på 5, osv. i oddetallsrekken. Ved økende antall mandater stiger derfor "kostnadene" i form av stemmer for partiene. I forhold til d'Hondts metode gir dette betydelig dårligere uttelling for de store partiene. Den norske valgordningen ble endret fra d'Hondts til St. Laguës metode i 1952. Som en kompensasjon for de store partiene forhøyet man første divisor fra 1,0 til 1,4 som er den nåværende ordning. Det er altså en modifisert St. Laguës metode som er i bruk i Norge i dag.
-
-**[Stortingsvalg med Sainte-Laguës metode](./forklaringer.md##Margin-til-sistemandatet)**
-
-d'Hondts metode er basert på delingstallene 1, 2, 3, 4, 5, 6, 7, 8 osv. Denne metoden gir svært god mandatgevinst for de største partiene. Overrepresentasjonen for de store partiene blir så stor at dette i mange tilfeller oppfattes som et demokratisk problem.
-
-Matematisk ser d'Hondts slik ut:
-$$\frac{V}{s+1}$$
- $V$ uttrykker her partienes andel av stemmene og $S$ uttrykker deres andel av mandatene
+Se [beregningsmetoder](./forklaringer##Beregningsmetoder)
 
 ### Første delingstall
 
 ![Første delingstall](forste_delingstall.png)
 
-Her kan du forandre det første delingstallet i Sainte-Laguës metode. Dette er det tallet som hvert partis stemmetall deles på før tildelingen av mandater begynner. Dagens valgordning har 1,4 som første delingstall.
-
-Hensikten er at dette skal gi et visst «styringstillegg» til de store partiene og hindre politisk fragmentering. Ved å gjøre det første delingstallet større blir det vanskeligere å få det første mandatet. Dermed blir det også vanskeligere for de partiene som kan bare få ett mandat å få det ene mandatet.
+Her kan du forandre det første delingstallet i [Sainte-Laguës metode](./forklaringer##Beregningsmetoder). Dette er det tallet som hvert partis stemmetall deles på før tildelingen av mandater begynner. Hensikten er at dette skal gi et visst «styringstillegg» til de store partiene og hindre politisk fragmentering. Ved å gjøre det første delingstallet større blir det vanskeligere å få det første mandatet. Dermed blir det også vanskeligere for de partiene som kan bare få ett mandat å få det ene mandatet.
 
 Eksempel: Gå til landsoversikt-tabellen og se hvor mange mandater de enkelte partiene får hvis du varierer det første delingstallet fra 1,0 til 2,0. Merk at ved valget i 2017 ville Miljøpartiet De Grønne fått ett mandat ekstra hvis delingstallet hadde vært 1,2. Senterpartiet ville da mistet ett mandat. Med et delingstall på 1,0 ville MDG fått to mandater ekstra, men da på bekostning av Kristelig Folkeparti og Høyre.
 
-Vær oppmerksom på at når man skal fordele stortingsmandatene på de enkelte fylkene benyttes ikke første divisor 1.4, men i stedet 1.0 (den rene Sainte Laguës metode). Se fylkesfordeling av mandatene.
+Dagens valgordning har 1,4 som første delingstall.
 
 ### Sperregrense
 
 ![Sperregrense](sperregrense.png)
 
-Her kan du variere sperregrensen. Dagens ordning har en sperregrense på 4 prosent.
+Her kan du variere sperregrensen.
 
-For å være med i konkurransen om utjevningsmandater må partiene komme over sperregrensen i oppslutning i landet sett under ett (prosent av stemmene på landsbasis). Sperregrensen gjelder kun for konkurransen om utjevningsmandater, det er ingen formelle sperregrenser ved fordeling av distriktsmandatene.
-
-Sperregrensen gjør at fordelingen av utjevningsmandater kan få store utslag. Den kan hindre små partier i å få stor innflytelse, siden små partier får færre mandater enn stemmeantallet deres skulle tilsi uten sperregrensen. De som kommer akkurat over sperregrensen derimot, kan få mange flere mandater enn de ellers ville ha fått.
+For å være med i konkurransen om utjevningsmandater må partiene komme over en sperregrense i oppslutning i landet sett under ett (prosent av stemmene på landsbasis). Denne sperregrensen gjør at fordelingen av utjevningsmandater kan få store utslag. Den kan hindre små partier i å få stor innflytelse, siden små partier får færre mandater enn stemmeantallet deres skulle tilsi uten sperregrensen. De som kommer akkurat over sperregrensen derimot, kan få mange flere mandater enn de ellers ville ha fått.
 
 Eksempel: Partier som kommer over sperregrensen kan bli representert uten at de har vunnet noen distriktsmandater. Hvis f.eks. sperregrensen hadde vært 3 prosent i 1989, ville Venstre blitt representert med 5 utjevningsmandater.
 
@@ -106,7 +91,7 @@ Eksempel: Partier som kommer over sperregrensen kan bli representert uten at de 
 
 ![Sperregrense for distriktsmandat](sperregrense_distriktsmandat.png)
 
-Her kan du se hvilke utslag en sperregrense for fordeling av distriktsmandatene ville fått, også kjent som sperregrensen på laveste nivå.
+Her kan du se hvilke utslag en sperregrense for fordeling av distriktsmandatene ville fått.
 
 Denne sperregrensen skal gjelde i det enkelte valgdistrikt, dvs. ved beregningen av distriktsmandater. I den gjeldende valgordning er det ingen slik formell sperregrense på distriktsnivå.
 
@@ -116,13 +101,11 @@ Denne sperregrensen skal gjelde i det enkelte valgdistrikt, dvs. ved beregningen
 
 Her kan du justere antall utjevningsmandater.
 
-Mens distriktsmandatene fordeles etter partienes stemmetall i det enkelte fylke, er det deres samlede stemmetall for landet som helhet som er utslagsgivende for fordelingen av utjevningsmandatene. Hensikten med utjevningsmandater er å utjevne skjevheter som er oppstått etter fordelingen i fylkene. Utjevningsmandatene går til de partiene som har kommet dårligere ut av distriktsfordelingen enn deres stemmeandel skulle tilsi.
+I dag så består Stortinget av i alt 169 representanter der 19 mandater fordeles som utjevningsmandater.
 
-Vær oppmerksom på at partier/lister som har under 4,0 prosent av stemmene på landsbasis ikke er med i konkurransen om utjevningsmandatene. Men dette kan endres ved å sette sperregrensen lavere enn 4,0. Med den nye valgordningen fra 2005 er det mer komplisert å øke antallet utjevningsmandater utover 19, fordi det bare skal være ett utjevningsmandat i hvert fylke.
+Hensikten med utjevningsmandater er å utjevne skjevheter som er oppstått etter fordelingen i fylkene. Utjevningsmandatene går til de partiene som har kommet dårligere ut av distriktsfordelingen enn deres stemmeandel skulle tilsi.
 
-Når man foretar endringer i antallet utjevningsmandater og distriktsmandater fra valgene etter 2001, vil Lavinia foreta en fordeling på fylkene som følger de nye reglene for fylkesfordeling (se arealfaktoren).
-
-Med dagens ordning så har Stortinget 169 representanter hvor 19 av disse er utjevningsmandater.
+Fordelingen av utjevningsmandater skjer etter fordelingen av distriktsmandater. Det er nemlig partienes samlede stemmetall for landet som helhet (landsbasis) som er utslagsgivende for fordelingen av utjevningsmandatene. Partier som har under 4,0 prosent av stemmene på landsbasis ikke er med i konkurransen om utjevningsmandatene. Men dette kan endres ved å sette sperregrensen lavere enn 4,0.
 
 [Hvordan utgjevningsmandatene fordeles på fylker og partier kan du se her.](https://www.aardal.info/wp-content/uploads/2018/11/utjevn2017-2.pdf)
 
@@ -132,21 +115,27 @@ Med dagens ordning så har Stortinget 169 representanter hvor 19 av disse er utj
 
 Her kan du endre antall distriktsmandater.
 
-I dag så består Stortinget av i alt 169 representanter der 150 mandater fordeles distriktsvis. Distriktsmandatene (169) fordeles etter partienes stemmetall i de enkelte valgdistrikter, mens utjevningsmandatene (19) fordeles etter partienes samlede stemmetall på landsbasis.
+Stortinget består av i alt 169 representanter der 150 mandater fordeles distriktsvis.
 
-Merk at før stortingsvalget så må det regnes ut hvor mange distriktsmandater hvert enkelt valgdistrikt (fylke) skal ha. Fordelingen av mandatene på valgdistriktene er nemlig basert på en veid sum av antall innbyggere og fylkets areal. Denne fylkesfordelingen justeres hvert 8. år (annet hvert stortingsvalg) for å kunne fange opp endringer i bosettingsmønsteret.
+I dag brukes Sainte Laguës modifiserte metode (første delingstall 1.8) til å fordele distriktsmandatene etter partienes stemmetall i de enkelte valgdistrikter.
 
-Etter at stemmene er telt opp under stortingsvalget så brukes Sainte Laguës modifiserte metode til å fordele mandatene på partienes stemmetall i de enkelte valgdistriktene.
+Se [stortingsvalg med Sainte Laguës metode](./forklaringer##Stortingsvalg-med-Sainte-Lagues-metode)
 
-Når man foretar endringer i antallet utjevningsmandater og distriktsmandater fra valgene etter 2001, vil Lavinia foreta en fordeling på fylkene som følger de nye reglene for fylkesfordeling (se arealfaktoren).
+Merk at før stortingsvalget så er det regnet ut hvor mange distriktsmandater hvert enkelt valgdistrikt (fylke) skal ha. Se [Geografisk fordeling av mandater](./forklaringer##Geografisk-fordeling-av-mandater).
 
 ### Arealfaktor
 
 ![Arealfaktor](arealfaktor.png)
 
-Her kan du endre arealfaktor (1.8 med dagens ordning)
+Her kan du endre arealfaktor. Dagens ordnings har en arealfaktor på 1.8.
 
-Arealfaktor (1,8) er det sifferet som multipliseres med antall kvadratkilometer i fylket med for å få fram den veide summen av innbyggertall og areal. Jo høyere arealfaktor, jo større vekt tillegges fylkets geografiske utstrekning. Hvis arealfaktoren settes til null, vil fordelingen bare ta hensyn til innbyggertallet i fylket og gi en fylkesfordeling av mandatene som er proporsjonal med folketallet.
+Arealfaktor er tallet som multipliseres med antall kvadratkilometer i fylke før det legges til summen av antall innbyggere i fylket. Jo høyere arealfaktor, jo større vekt tillegges fylkets geografiske utstrekning. Hvis arealfaktoren settes til null, vil fordelingen bare ta hensyn til innbyggertallet i fylket og gi en fylkesfordeling av mandatene som er proporsjonal med folketallet.
+
+Se [Geografisk fordeling av mandater](./forklaringer##Geografisk-fordeling-av-mandater).
+
+Se [Tabell over geografisk fordeling](./forklaringer##Tabell-over-geografisk-fordeling)
+
+Se [Utregning med arealfaktor](./forklaringer##Utregning-med-arealfaktor).
 
 ### Disproporsjonalitetsindeks
 

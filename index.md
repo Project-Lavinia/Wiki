@@ -24,7 +24,7 @@ politikere og ledere.
    [Landsoversikt](./menu.md###landsoversikt)  
    [Utjevingsmandater](./menu.md###Utjevingsmandater)  
    [Restkvotienter](./menu.md###Restkvotienter)  
-   [Fylkesfordeling av mandater](./menu.md###Fordeling-av-mandater)  
+   [Fylkesfordeling av mandater](./menu.md###Fylkesfordeling-av-mandater)  
    [Enkeltfylke](./menu.md###Enkeltfylke)  
 
 ## Endringsmuligheter
@@ -38,3 +38,14 @@ politikere og ledere.
    [Antall distriktsmandater](./menu.md###Distriktsmandater)  
    [Arealfaktor](./menu.md###Arealfaktor)  
    [Disproporsjonalitetsindeks](./menu.md###Disproporsjonalitetsindeks)  
+
+## Ordliste
+
+Stortingsvalg
+Distriktsmandater
+Utjevningsmandater
+Restkvotient
+Sistemandat
+Sistekvotient
+Prop.
+Margin
