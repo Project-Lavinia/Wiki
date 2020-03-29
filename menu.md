@@ -150,8 +150,9 @@ Denne indeksen beregnes ved å summere prosentdifferansene mellom partienes ande
 
 Matematisk ser formelen slik ut:
 
-<img src="https://render.githubusercontent.com/render/math?math=LH=\frac{1}{2}\sum_{i = 1}^{n}|V_{i}-S_{i}|"> hvor
-<img src="https://render.githubusercontent.com/render/math?math=V"> uttrykker partienes andel av stemmene (votes) og <img src="https://render.githubusercontent.com/render/math?math=S"> uttrykker deres andel av mandatene (seats)
+<img src="https://render.githubusercontent.com/render/math?math=LH=\frac{1}{2}\sum_{i = 1}^{n}|V_{i}-S_{i}|">
+
+hvor <img src="https://render.githubusercontent.com/render/math?math=V"> uttrykker partienes andel av stemmene (votes) og <img src="https://render.githubusercontent.com/render/math?math=S"> uttrykker deres andel av mandatene (seats)
 
 Denne indeksen gir et enkelt mål på hvor mange prosentpoengs avvik det er for de partiene som er overrepresentert (henholdsvis underrepresentert) i forhold til den aktuelle valgordning. Fordelen med indeksen er at den er enkelt å forstå og tolke. Indeksen uttrykker avviket fra fullstendig proporsjonalitet i prosentpoeng, og jo høyere indeksverdi, jo mindre proporsjonal er valgordningen. Svakheten med Loosemore-Hanbys indeks er imidlertid at den overdriver disproporsjonaliteten i systemer med mange partier. I Lavinia er det Loosemore-Hanbys indeks som vises når programmet starter opp første gang. I resultatvinduet står det da f.eks. "L-H:5,4". Det er imidlertid mulig å endre dette til Gallaghers indeks (se under).
 
@@ -159,7 +160,9 @@ Gallaghers indeks (LSq)
 Et tredje mål på disproporsjonalitet er Gallaghers minste kvadraters indeks (ofte benevnt 'LSq'). Denne indeksen er den mest vanlige når man ønsker å måle avvik fra matematisk rettferdighet. Det er også mulig å få Lavinia til å beregne denne indeksen i stedet for Loosemore-Hanbys. Gallaghers indeks beregnes ved å ta kvadratroten av følgende uttrykk: de summerte kvadrerte avvikene mellom hvert partis andel av stemmene og dets andel av mandatene dividert på 2.
 
 Matematisk ser formelen slik ut:
-<img src="https://render.githubusercontent.com/render/math?math=LSq=\sqrt{\frac{1}{2}\sum_{i = 1}^{n}(V_{i}-S_{i})^{2}}"> hvor
-<img src="https://render.githubusercontent.com/render/math?math=V"> uttrykker partienes andel av stemmene (votes), mens <img src="https://render.githubusercontent.com/render/math?math=S"> uttrykker deres andel av mandatene (seats)
+
+<img src="https://render.githubusercontent.com/render/math?math=LSq=\sqrt{\frac{1}{2}\sum_{i = 1}^{n}(V_{i}-S_{i})^{2}}">
+
+hvor <img src="https://render.githubusercontent.com/render/math?math=V"> uttrykker partienes andel av stemmene (votes), mens <img src="https://render.githubusercontent.com/render/math?math=S"> uttrykker deres andel av mandatene (seats)
 
 Denne indeksen lar med andre ord de store avvikene telle mer enn de små. I prinsippet kan Gallaghers indeks variere mellom 0 og 100, men i praksis viser det seg at de fleste indeksverdier ligger mellom 1 og 10. I størrelse ligger Gallaghers indeks mellom Loosemore-Hanbys (høyest) og Raes (lavest). De forskjellige måtene å måle disproporsjonalitet på er imidlertid sterkt korrelert. Dessuten er graden av disproporsjonalitet ikke nødvendigvis den viktigste egenskap ved en valgordning. De politiske utslagene kan være langt viktigere. I faglitteraturen blir det påpekt at man i tillegg til en valgordnings samlede avvik fra fullstendig proporsjonalitet, bør se om ordningen diskriminerer mellom store og små partier, eller om disse behandles likt.
