@@ -5,7 +5,7 @@
 
 Stortinget skal ha representanter fra hele Norge. Derfor fordeles alle stortingsmandatene på fylkene.
 
-For å finne antallet mandater hvert fylke skal ha så foretas følgene beregninger:
+For å finne antallet mandater hvert fylke skal ha så foretas følgende beregninger:
 
 1. Hvert fylke får tildelt en sum basert på antall innbyggere og fylkets areal.
 
