@@ -169,7 +169,7 @@ Justert restkvotient |  0,3533      | 0,1690       | 0,0831      | 0,1984       
 
 [Eksempel på hvordan utjevningsmandatene fordeles på partier og fylker med den nye valgordningen](https://www.sv.uio.no/isv/forskning/prosjekter/valgforskning/valgordning/utjvnex.pdf)
 
-## Restkvotioent
+## Restkvotient
 
 I en valgkrets, etter at mandatene er delt ut, så er restkvotientene det samme som partiene sine gjenstående stemmeantall (etter at Saint Legues metode er utført). Har partiet ikke vunnet noe mandat, er restkvotienten lik stemmetallet ved valget.1 Har partiet vunnet ett distriktsmandat, er restkvotienten lik stemmetallet dividert på 3.
 
