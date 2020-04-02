@@ -11,9 +11,7 @@ For å finne antallet mandater hvert fylke skal ha så foretas følgende beregni
 
 <img src="https://render.githubusercontent.com/render/math?math=\text{fylketsSum} = \text{antallInnbyggere}%2B(\text{antallKvadratkilometer}\cdot\text{arealfaktor})">
 
-2. Deretter brukes den originale Saint Laguës (første delingstall 1,0) metode til å fordele 150 mandater på fylkene.
-
-3. Med dagens valgordning får også hvert fylke ett utjevningsmandat, for en total sum av 169 mandater.
+2. Deretter brukes den originale Saint Laguës (første delingstall 1,0) metode til å fordele 169 mandater på fylkene.
 
 Den geografiske fordelingen av mandater justeres hvert 8. år (annet hvert stortingsvalg) for å kunne fange opp endringer i bosettingsmønsteret.
 
