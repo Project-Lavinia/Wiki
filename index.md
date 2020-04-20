@@ -41,11 +41,11 @@ politikere og ledere.
 
 ## Ordliste
 
-Stortingsvalg
-Distriktsmandater
-Utjevningsmandater
-Restkvotient
-Sistemandat
-Sistekvotient
-Prop.
-Margin
+* **Stortingsvalg**  
+Valg av representanter til Stortinget. Valget foregår hvert fjerde år og det består av i alt 169 representanter der 150 mandater fordeles distriktsvis, mens 19 mandater fordeles som utjevningsmandater.
+
+* **Distriktsmandater**  
+* **Utjevningsmandater**  
+* **Restkvotient**  
+* **Sistemandat**  
+* **Sistekvotient**  
