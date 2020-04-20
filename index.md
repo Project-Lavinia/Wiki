@@ -20,24 +20,24 @@ politikere og ledere.
 
 ## Tabeller og oversikt
 
-   [Fylker](./menu.md###Fylker)  
-   [Landsoversikt](./menu.md###landsoversikt)  
-   [Utjevingsmandater](./menu.md###Utjevingsmandater)  
-   [Restkvotienter](./menu.md###Restkvotienter)  
-   [Fylkesfordeling av mandater](./menu.md###Fylkesfordeling-av-mandater)  
-   [Enkeltfylke](./menu.md###Enkeltfylke)  
+   [Fylker](menu.md###Fylker)  
+   [Landsoversikt](menu.md###landsoversikt)  
+   [Utjevingsmandater](menu.md###Utjevingsmandater)  
+   [Restkvotienter](menu.md###Restkvotienter)  
+   [Fylkesfordeling av mandater](menu.md###Fylkesfordeling-av-mandater)  
+   [Enkeltfylke](menu.md###Enkeltfylke)  
 
 ## Endringsmuligheter
 
-   [Velg år for stortingsvalg](./menu.md##Menyer)  
-   [Beregningsmetode](./menu.md###Valgt-metode)  
-   [Første delingstall](./menu.md###Første-delingstall)  
-   [Sperregrense](./menu.md###Sperregrense)  
-   [Sperregrense for distriktsmandater](./menu.md###Sperregrense-for-distriktsmandat)  
-   [Antall utjevningsmandater](./menu.md###Utjevningsmandater)  
-   [Antall distriktsmandater](./menu.md###Distriktsmandater)  
-   [Arealfaktor](./menu.md###Arealfaktor)  
-   [Disproporsjonalitetsindeks](./menu.md###Disproporsjonalitetsindeks)  
+   [Velg år for stortingsvalg](menu.md##Menyer)  
+   [Beregningsmetode](menu.md###Valgt-metode)  
+   [Første delingstall](menu.md###Første-delingstall)  
+   [Sperregrense](menu.md###Sperregrense)  
+   [Sperregrense for distriktsmandater](menu.md###Sperregrense-for-distriktsmandat)  
+   [Antall utjevningsmandater](menu.md###Utjevningsmandater)  
+   [Antall distriktsmandater](menu.md###Distriktsmandater)  
+   [Arealfaktor](menu.md###Arealfaktor)  
+   [Disproporsjonalitetsindeks](menu.md###Disproporsjonalitetsindeks)  
 
 ## Ordliste
 
