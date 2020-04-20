@@ -42,10 +42,20 @@ politikere og ledere.
 ## Ordliste
 
 * **Stortingsvalg**  
-Valg av representanter til Stortinget. Valget foregår hvert fjerde år og det består av i alt 169 representanter der 150 mandater fordeles distriktsvis, mens 19 mandater fordeles som utjevningsmandater.
+Valg av representanter til Stortinget foregår hvert fjerde år. Stortinget består av i alt 169 representanter der 150 mandater fordeles distriktsvis, mens 19 mandater fordeles som utjevningsmandater.
 
 * **Distriktsmandater**  
+Distriktsmandater fordeles etter partienes stemmetall i de enkelte valgdistrikter (som i Norge er fylkene). Hvert fylke har et fast antall mandater som velges direkte av velgerne i fylket.
+
 * **Utjevningsmandater**  
+Etter at 150 distriktsmandater er fordelt i de 19 valgdistriktene, skjer fordelingen av de 19 utjevningsmandatene. Utjevningsmandatene går til de partiene som har kommet dårligere ut av distriktsfordelingen enn deres stemmeandel skulle tilsi, men bare til partier som får minst 4,0 prosent oppslutning på landsbasis (sperregrensen).
+
+* **Sistemandat og marginen**  
+Ved stortingsvalg er vi ofte interessert i vite hvilket parti som fikk sistemandatet (i distriktet) og hvor mange stemmer det var om å gjøre for at et annet parti hadde vunnet dette mandatet. 
+
 * **Restkvotient**  
-* **Sistemandat**  
-* **Sistekvotient**  
+I en valgkrets, etter at mandatene er delt ut, så er restkvotientene det samme som partiene sine gjenstående stemmeantall. Det vil si stemmene som er igjen etter at Saint Legues metode er utført.
+
+* **proporsjonalitet**  
+Hvor stor grad en valgordning avviker fra matematisk "rettferdighet", det vil si at partienes andel av mandater er lik deres andel av stemmene. 
+
