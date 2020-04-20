@@ -26,7 +26,7 @@ Viser en oversikt over fra hvilket fylke hvert parti har fått utjevningsmandate
 
 ![Restkvotienter](restkvotienter.png)
 
-Viser en radvis liste over [restkvotienter](./forklaringer##Justert-restkvotient).
+Viser en radvis liste over [restkvotienter](./forklaringer.md#justert-restkvotient).
 
 Hver rad representerer restkvotientene til ett fylke. Markerte celler indikerer hvilket partiet som har vunnet utjevningsmandat i fylke.
 
@@ -45,7 +45,7 @@ Viser fylkenes fordeling av mandater på alle partier.
 
 Viser en fullstendig oversikt, for valgt fylke, over partienes andel stemmer, mandatgevinst, margin (i antall stemmer) og sistekvotient.
 
-**[Margin til sistemandatet](./forklaringer.md##Margin-til-sistemandatet)**
+**[Margin til sistemandatet](./forklaringer.md#margin-til-sistemandatet)**
 
 ## Menyer
 
@@ -65,13 +65,13 @@ Her kan du velge å fordele mandatene med enten Sainte-Laguës eller d'Hondts me
 
 Dette er beregningsmetoder som blir brukt når distriktsmandatene skal fordeles på partiene i distriktene og deretter når utjevningsmandatene skal fordeles på partiene på landsbasis (sistnevnte kun for partier over sperregrensen). Både Sainte-Laguës og d'Holts metode er proporsjonale valgordninger hvor kandidater velges i forhold til antall stemmer de eller deres valgliste får.
 
-Se [beregningsmetoder](./forklaringer##Beregningsmetoder)
+Se [beregningsmetoder](./forklaringer.md#beregningsmetoder)
 
 ### Første delingstall
 
 ![Første delingstall](forste_delingstall.png)
 
-Her kan du forandre det første delingstallet i [Sainte-Laguës metode](./forklaringer##Beregningsmetoder). Dette er det tallet som hvert partis stemmetall deles på før tildelingen av mandater begynner. Hensikten er at dette skal gi et visst «styringstillegg» til de store partiene og hindre politisk fragmentering. Ved å gjøre det første delingstallet større blir det vanskeligere å få det første mandatet. Dermed blir det også vanskeligere for de partiene som kan bare få ett mandat å få det ene mandatet.
+Her kan du forandre det første delingstallet i [Sainte-Laguës metode](./forklaringer.md#beregningsmetoder). Dette er det tallet som hvert partis stemmetall deles på før tildelingen av mandater begynner. Hensikten er at dette skal gi et visst «styringstillegg» til de store partiene og hindre politisk fragmentering. Ved å gjøre det første delingstallet større blir det vanskeligere å få det første mandatet. Dermed blir det også vanskeligere for de partiene som kan bare få ett mandat å få det ene mandatet.
 
 Eksempel: Gå til landsoversikt-tabellen og se hvor mange mandater de enkelte partiene får hvis du varierer det første delingstallet fra 1,0 til 2,0. Merk at ved valget i 2017 ville Miljøpartiet De Grønne fått ett mandat ekstra hvis delingstallet hadde vært 1,2. Senterpartiet ville da mistet ett mandat. Med et delingstall på 1,0 ville MDG fått to mandater ekstra, men da på bekostning av Kristelig Folkeparti og Høyre.
 
@@ -107,8 +107,6 @@ Hensikten med utjevningsmandater er å utjevne skjevheter som er oppstått etter
 
 Fordelingen av utjevningsmandater skjer etter fordelingen av distriktsmandater. Det er nemlig partienes samlede stemmetall for landet som helhet (landsbasis) som er utslagsgivende for fordelingen av utjevningsmandatene. Partier som har under 4,0 prosent av stemmene på landsbasis ikke er med i konkurransen om utjevningsmandatene. Men dette kan endres ved å sette sperregrensen lavere enn 4,0.
 
-[Hvordan utgjevningsmandatene fordeles på fylker og partier kan du se her.](https://www.aardal.info/wp-content/uploads/2018/11/utjevn2017-2.pdf)
-
 ### Distriktsmandater
 
 ![Distriktsmandater](distriktsmandater.png)
@@ -119,9 +117,9 @@ Stortinget består av i alt 169 representanter der 150 mandater fordeles distrik
 
 I dag brukes Sainte Laguës modifiserte metode (første delingstall 1.8) til å fordele distriktsmandatene etter partienes stemmetall i de enkelte valgdistrikter.
 
-Se [stortingsvalg med Sainte Laguës metode](./forklaringer##Stortingsvalg-med-Sainte-Lagues-metode)
+Se [stortingsvalg med Sainte Laguës metode](./forklaringer.md#stortingsvalg-med-sainte-lagues-metode)
 
-Merk at før stortingsvalget så er det regnet ut hvor mange distriktsmandater hvert enkelt valgdistrikt (fylke) skal ha. Se [Geografisk fordeling av mandater](./forklaringer##Geografisk-fordeling-av-mandater).
+Merk at før stortingsvalget så er det regnet ut hvor mange distriktsmandater hvert enkelt valgdistrikt (fylke) skal ha. Se [Geografisk fordeling av mandater](./forklaringer.md#geografisk-fordeling-av-mandater).
 
 ### Arealfaktor
 
@@ -131,11 +129,11 @@ Her kan du endre arealfaktor. Dagens ordnings har en arealfaktor på 1.8.
 
 Arealfaktor er tallet som multipliseres med antall kvadratkilometer i fylke før det legges til summen av antall innbyggere i fylket. Jo høyere arealfaktor, jo større vekt tillegges fylkets geografiske utstrekning. Hvis arealfaktoren settes til null, vil fordelingen bare ta hensyn til innbyggertallet i fylket og gi en fylkesfordeling av mandatene som er proporsjonal med folketallet.
 
-Se [Geografisk fordeling av mandater](./forklaringer##Geografisk-fordeling-av-mandater).
+Se [Geografisk fordeling av mandater](./forklaringer.md#geografisk-fordeling-av-mandater).
 
-Se [Tabell over geografisk fordeling](./forklaringer##Tabell-over-geografisk-fordeling)
+Se [Tabell over geografisk fordeling](./forklaringer.md#tabell-over-geografisk-fordeling)
 
-Se [Utregning med arealfaktor](./forklaringer##Utregning-med-arealfaktor).
+Se [Utregning med arealfaktor](./forklaringer.md#utregning-med-arealfaktor).
 
 ### Disproporsjonalitetsindeks
 
