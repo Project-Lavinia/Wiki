@@ -70,7 +70,7 @@ Matematisk ser Sainte-Laguës metode slik ut:
 
 hvor q er kvotienten, V er partienes andel av stemmene og S uttrykker antall mandater de har fått så langt i beregningen.
 
-Se [stortingsvalg med Sainte Laguës metode](#stortingsvalg-med-Sainte-Lagues-metode)
+Se [Stortingsvalg med Sainte Laguës metode](#stortingsvalg-med-sainte-lagues-metode)
 
 **d'Hondts** metode er basert på delingstallene 1, 2, 3, 4, 5, 6, 7, 8 osv. Denne metoden gir svært god mandatgevinst for de største partiene. Overrepresentasjonen for de store partiene blir så stor at dette i mange tilfeller oppfattes som et demokratisk problem.
 
@@ -142,7 +142,7 @@ Nå er det bare ett mandat igjen til fordeling i fylket, og det tilfaller parti 
 
 Ved stortingsvalg er vi ofte interessert i vite hvilket parti som fikk sistemandatet og hvor mange stemmer det var om å gjøre for at et annet parti hadde vunnet dette mandatet. Det siste refererer vi til som 'marginen' til sistemandatet. Er marginen liten, betyr det at mandatet er utsatt ved neste valg. Det vil si at andre partier kan ta mandatet fra det partiet som vant det forrige gang.
 
-[Stortingsvalg med Sainte-Laguës metode, steg 5:](#stortingsvalg-med-Sainte-Lagues-metode)
+[Stortingsvalg med Sainte-Laguës metode, steg 5:](#stortingsvalg-med-sainte-lagues-metode)
 
    Parti A: 50 000 / 5   = 10000  
    Parti B: 40 000 / 3   = __13333__  
@@ -171,7 +171,7 @@ Justert restkvotient |  0,3533      | 0,1690       | 0,0831      | 0,1984       
 
 I en valgkrets, etter at mandatene er delt ut, så er restkvotientene det samme som partiene sine gjenstående stemmeantall (etter at Saint Legues metode er utført). Har partiet ikke vunnet noe mandat, er restkvotienten lik stemmetallet ved valget.1 Har partiet vunnet ett distriktsmandat, er restkvotienten lik stemmetallet dividert på 3.
 
-Se eksemplet [Stortingsvalg med Sainte-Laguës metode, steg 5:](#stortingsvalg-med-Sainte-Laguës-metode)
+Se eksemplet [Stortingsvalg med Sainte-Laguës metode, steg 5:](#stortingsvalg-med-sainte-lagues-metode)
 
    Parti A: 50 000 / 5   = __10000__  
    Parti B: 40 000 / 3   = __13333__  
