@@ -15,7 +15,7 @@ For å finne antallet mandater hvert fylke skal ha så foretas følgende beregni
 
 Den geografiske fordelingen av mandater justeres hvert 8. år (annet hvert stortingsvalg) for å kunne fange opp endringer i bosettingsmønsteret.
 
-Se [Tabell over geografisk fordeling](##Tabell-over-geografisk-fordeling)
+Se [Tabell over geografisk fordeling](#tabell-over-geografisk-fordeling)
 
 ## Tabell over geografisk fordeling
 
@@ -48,7 +48,7 @@ Totalt           | 323785         | 4985870   |  --            |169
 
 Arealfaktoren er tallet som multipliseres med antall kvadratkilometer i fylket.
 
-Ta følgene regnestykker basert på tallene fra [tabellen ovenfor](##Tabell-over-geografisk-fordeling) med arealfaktor på 1.8. Regnestykkene illustrerer hvordan **fordelingstall** regnes ut.
+Ta følgene regnestykker basert på tallene fra [tabellen ovenfor](#tabell-over-geografisk-fordeling) med arealfaktor på 1.8. Regnestykkene illustrerer hvordan **fordelingstall** regnes ut.
 
 Aust−Agder har 111495 innbyggere og 9157 kvadratkilometer:
 111495 + (9157 * 1.8) = 127977,66
@@ -58,7 +58,7 @@ Finnmark har 48617 innbyggere og 73787 kvadratkilometer:
 
 Merk at selv om Finnmark har færre innbyggere enn Aust−Agder så ender Finnmark opp med større fordelingstall. Finnmark ender også opp med flere mandater enn Aust-agder etter endt fordeling med Saint Laguës metode (første delingstall 1,0).
 
-Se [Geografisk fordeling av mandater](##Geografisk-fordeling-av-mandater)
+Se [Geografisk fordeling av mandater](#geografisk-fordeling-av-mandater)
 
 ## Beregningsmetoder
 
@@ -70,7 +70,7 @@ Matematisk ser Sainte-Laguës metode slik ut:
 
 hvor q er kvotienten, V er partienes andel av stemmene og S uttrykker antall mandater de har fått så langt i beregningen.
 
-Se [stortingsvalg med Sainte Laguës metode](##Stortingsvalg-med-Sainte-Lagues-metode)
+Se [stortingsvalg med Sainte Laguës metode](#stortingsvalg-med-Sainte-Lagues-metode)
 
 **d'Hondts** metode er basert på delingstallene 1, 2, 3, 4, 5, 6, 7, 8 osv. Denne metoden gir svært god mandatgevinst for de største partiene. Overrepresentasjonen for de store partiene blir så stor at dette i mange tilfeller oppfattes som et demokratisk problem.
 
@@ -142,7 +142,7 @@ Nå er det bare ett mandat igjen til fordeling i fylket, og det tilfaller parti 
 
 Ved stortingsvalg er vi ofte interessert i vite hvilket parti som fikk sistemandatet og hvor mange stemmer det var om å gjøre for at et annet parti hadde vunnet dette mandatet. Det siste refererer vi til som 'marginen' til sistemandatet. Er marginen liten, betyr det at mandatet er utsatt ved neste valg. Det vil si at andre partier kan ta mandatet fra det partiet som vant det forrige gang.
 
-[Stortingsvalg med Sainte-Laguës metode, steg 5:](##Stortingsvalg-med-Sainte-Lagues-metode)
+[Stortingsvalg med Sainte-Laguës metode, steg 5:](#stortingsvalg-med-Sainte-Lagues-metode)
 
    Parti A: 50 000 / 5   = 10000  
    Parti B: 40 000 / 3   = __13333__  
@@ -167,13 +167,11 @@ Restkvotient         | 3437         | 1644         | 808         | 5790/3=1930  
 Divisjon             | <img src="https://render.githubusercontent.com/render/math?math=\frac{3437}{9727.25}"> | <img src="https://render.githubusercontent.com/render/math?math=\frac{1644}{9727.25}"> | <img src="https://render.githubusercontent.com/render/math?math=\frac{808}{9727.25}"> | <img src="https://render.githubusercontent.com/render/math?math=\frac{1930}{9727.25}"> | <img src="https://render.githubusercontent.com/render/math?math=\frac{5600}{9727.25}">
 Justert restkvotient |  0,3533      | 0,1690       | 0,0831      | 0,1984       | 0.,757
 
-[Eksempel på hvordan utjevningsmandatene fordeles på partier og fylker med den nye valgordningen](https://www.sv.uio.no/isv/forskning/prosjekter/valgforskning/valgordning/utjvnex.pdf)
-
 ## Restkvotient
 
 I en valgkrets, etter at mandatene er delt ut, så er restkvotientene det samme som partiene sine gjenstående stemmeantall (etter at Saint Legues metode er utført). Har partiet ikke vunnet noe mandat, er restkvotienten lik stemmetallet ved valget.1 Har partiet vunnet ett distriktsmandat, er restkvotienten lik stemmetallet dividert på 3.
 
-Se eksemplet [Stortingsvalg med Sainte-Laguës metode, steg 5:](##Stortingsvalg-med-Sainte-Laguës-metode)
+Se eksemplet [Stortingsvalg med Sainte-Laguës metode, steg 5:](#stortingsvalg-med-Sainte-Laguës-metode)
 
    Parti A: 50 000 / 5   = __10000__  
    Parti B: 40 000 / 3   = __13333__  
