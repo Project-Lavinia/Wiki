@@ -248,7 +248,7 @@ Antall stemmer bak hvert mandat varierer fra fylke til fylke. Restkvotiene til p
 **Eksempel:**  
  I Finnmark stod det i gjennomsnitt 9727,25 stemmer bak hvert mandat i 2017. I Oslo stod det 20394, 5 stemmer bak hvert mandat. Høyres restkvotient på 5600 stemmer utgjør med andre ord 0,58 deler av et mandat i Finnmark, men bare 0,27 deler av et mandat i Oslo. For å utjevne de store forskjellene mellom fylkene justerer man derfor partienes restkvotienter ved å dividere restkvotienter på det gjennomsnittlige antall stemmer som står bak hvert mandat i vedkommende fylke.
 
-I Finnmark blir resultatet slik for de fem partiene som skal ha utjevningsmandat:
+I Finnmark blir resultatet slik for de fem partiene som skal ha utjevningsmandat:  
   --                 |      SV      |       V      |      KrF    |       SP     |      H
   --                 | ---          | ---          |---          |---           |---
 Restkvotient         | 3437         | 1644         | 808         | 5790/3=1930  | 5600
