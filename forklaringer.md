@@ -260,7 +260,7 @@ Justert restkvotient |  0,3533      | 0,1690       | 0,0831      | 0,1984       
 * Tabellen har listet opp kun de partiene som skal ha utjevningsmandater.
 * Gjennomsnittet av antall stemmer som står bak hvert mandat, 9727.25 i dette tilfellet, er kjent som _fylkesfaktor_.
 
-## Fordeling av utjevningsmandater p\&#229; partier
+## Fordeling av utjevningsmandater p&#229; partier
 
 Etter fordeling av distriktsmandater så foretas fordelingen av utjevningsmandater.
 
